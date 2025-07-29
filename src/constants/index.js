@@ -1,3 +1,17 @@
+import cropImage from "/assets/projects/crop.png";
+import movieRecImage from "/assets/projects/movie_rec.png";
+
+import pythonLogo from "/assets/logos/python.png";
+import tensorflowLogo from "/assets/logos/tensorflow.png";
+import jupyterLogo from "/assets/logos/jupyter.png";
+import html5Logo from "/assets/logos/html5.svg";
+import anacondaLogo from "/assets/logos/Anaconda.svg";
+import djangoLogo from "/assets/logos/django_svg.svg";
+
+import whatsAppIcon from "/assets/socials/whatsApp.svg";
+import linkedInIcon from "/assets/socials/linkedIn.svg";
+import instagramIcon from "/assets/socials/instagram.svg";
+
 export const myProjects = [
   {
     id: 1,
@@ -10,27 +24,27 @@ export const myProjects = [
     ],
     href: "https://github.com/Nitin-Nandan/CropDiseaseIdentification.git",
     logo: "",
-    image: "/assets/projects/crop.png",
+    image: cropImage,
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.png",
+        path: pythonLogo,
       },
       {
         id: 2,
         name: "TensorFlow",
-        path: "/assets/logos/tensorflow.png",
+        path: tensorflowLogo,
       },
       {
         id: 3,
         name: "Jupyter",
-        path: "/assets/logos/jupyter.png",
+        path: jupyterLogo,
       },
       {
         id: 4,
         name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        path: html5Logo,
       },
     ],
   },
@@ -45,27 +59,27 @@ export const myProjects = [
     ],
     href: "https://github.com/Nitin-Nandan/MovieRecommendationSystem.git",
     logo: "",
-    image: "/assets/projects/movie_rec.png",
+    image: movieRecImage,
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.png",
+        path: pythonLogo,
       },
       {
         id: 2,
         name: "Anaconda",
-        path: "/assets/logos/Anaconda.svg",
+        path: anacondaLogo,
       },
       {
         id: 3,
         name: "Jupyter",
-        path: "/assets/logos/jupyter.png",
+        path: jupyterLogo,
       },
       {
         id: 4,
         name: "Django",
-        path: "/assets/logos/django_svg.svg",
+        path: djangoLogo,
       },
     ],
   },
@@ -75,17 +89,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "https://wa.me/9199167670",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: whatsAppIcon,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/nitinnandan/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: linkedInIcon,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/just.a.nitin?igsh=azcxazhzNGcybXk4",
-    icon: "/assets/socials/instagram.svg",
+    icon: instagramIcon,
   },
 ];
 
@@ -101,55 +115,5 @@ export const experiences = [
       "Applied K-Means clustering to segment customers based on purchasing patterns, enabling targeted business strategies through unsupervised learning.",
       "Designed and deployed a time series forecasting model to predict retail demand, incorporating seasonality and trend analysis for accurate future insights.",
     ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
   },
 ];
