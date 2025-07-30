@@ -64,8 +64,7 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            I build data-driven solutions that deliver value—from predictive models to scalable applications. If you're facing a data challenge, I'd love to connect.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
